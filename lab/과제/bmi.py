@@ -8,7 +8,7 @@ def draw_text(clean_data):
     t.hideturtle()  
     t.penup()      
 
-   
+
     start_x = -350
     start_y = 200
     col_width = 120 
@@ -28,3 +28,4 @@ def draw_text(clean_data):
             t.write(str(item), align="center", font=("맑은 고딕", 10, "normal"))
 
     turtle.done()
+    #draw_text
